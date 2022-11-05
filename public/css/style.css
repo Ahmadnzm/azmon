@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+   url("../fonts/Vazir.woff2") format("woff2"), 
+   url("../fonts/Vazir.woff") format("woff"),
+   url("../fonts/Vazir.ttf") format("truetype");
+}
+
+body {
+  /* background-color: #252a36; */
+  font-family: Vazir, "tahoma", 'Ubuntu' !important;
+  outline: none!important;
+  overflow-x: hidden;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder {
+  color: #8999cf;
+  border: none!important;
+}
+
+/*! START LOGIN PAGE */
+
+.login-card {
+  top: 50%;
+  left: -50%;
+  transform: translateX(50%);
+  width: 18rem;
+  border-radius: .8rem;
+  border: 2px solid rgb(197, 195, 195);
+}
+
+.login .form-control {
+  outline: none !important;
+  border-radius: 2rem;
+  background-color: #eef6f8;
+}
+
+.btnEnter {
+  border-radius: 2rem;
+  box-shadow: 3px 5px 5px rgb(133, 132, 132);
+}
+
+/*! END LOGIN PAGE */
+
+/*! --------------------------------------------- */
+
+/*! START MAP PAGE  */
+.map-page{
+  position: relative;
+}
+.card-req-cars{
+  position: absolute;
+  bottom: 2%;
+  right: 50%;
+  transform: translateX(50%);
+  width: 28rem;
+  border-radius: .8rem;
+  border: 2px solid rgb(197, 195, 195);
+}
+.fa-map-marker{
+  font-weight: bolder;
+  margin-left: 5px;
+  font-size: 1.25rem;
+}
+.cars{
+  background: #e7e7e7;
+  border-radius: .7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+}
+/*! END MAP PAGE  */
